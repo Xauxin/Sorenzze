@@ -1,0 +1,39 @@
+
+/*Header*/
+
+.header{
+    background-color: var(--branco-azul);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 3px 31px -7px rgba(0,0,0,0.79);
+    box-shadow: 0px 3px 31px -7px rgba(0,0,0,0.79);
+}
+
+.links__header{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    display: flex;
+    gap: 23px;
+    margin-left: 32px;
+}
+
+.links__header a{
+    text-decoration: none;
+    color: black;
+}
+
+.links__header li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.img__header{
+    height: 48px;
+    padding: 10px;
+}
+
+/*Header*/

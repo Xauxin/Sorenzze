@@ -1,0 +1,63 @@
+/*cliente*/
+
+.cliente_venda{
+    grid-area: cliente;
+    display: flex;
+    border-right: var(--azul-forte) solid 3px;
+    justify-content: space-evenly;
+}
+
+.cliente_venda label{
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 12px;
+}
+
+.cliente_venda input{
+    background-color: var(--branco);
+    border: var(--azul-forte) solid 2px;
+    border-radius: 8px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left:3px ;
+    width: 100%;
+}
+
+.nome_cliente{
+    width: 40%;
+}
+
+.tipo_cliente{
+    width: 20%;
+}
+
+.tipo_cliente input{
+    text-align: center;
+}
+
+.numero_cliente label{
+    padding: 0px;
+}
+
+.numero_cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 11%;
+}
+
+.emissao_cliente{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emissao_cliente label{
+    padding: 0;
+}
+
+.emissao_cliente input{
+    padding: 0;
+    text-align: center;
+}

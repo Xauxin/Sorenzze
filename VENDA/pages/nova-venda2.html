@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="br-PT">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="../assets/styles/venda/style-global.css">
+    <link rel="stylesheet" href="../assets/styles/header-style.css">
+    <link rel="stylesheet" href="../assets/styles/venda/cliente.css">
+
+    <title>Document</title>
+    </head>
+    <body>   
+        <header class="header">
+            <ul class="links__header">
+                <li><a href="">INÍCIO</a></li>
+                <li><a href="">VENDAS</a></li>
+                <li><a href="">FINANCEIRO</a></li>
+            </ul>
+            <img class="img__header" src="../assets/imgs/Logo a.png" alt="">
+        </header>
+        <section>
+            <div class="borda__venda">
+                <div class="cliente__venda">
+                    <div class="nomecliente__venda">
+                        <label for="nome-cliente" >Cliente:</label>
+                        <input type="text" name="nome-cliente" id="nome-cliente">
+                    </div>
+                    <div class="tipo__venda">
+                        <label for="lista-tipo">Tipo:</label>
+                        <input list="tipo" name="list" id="lista-tipo" class="lista__tipo">
+                        <datalist id="tipo">
+                            <option value="Pedido"></option>
+                            <option value="Orçamento"></option>
+                            <option value="Registro"></option>
+                        </datalist>
+                    </div>
+                    <div class="numero__venda">
+                        <label for="numero-pedido" class="input__numero__pedido">Nº Pedido</label>
+                        <input type="text" name="numero-pedido" id="numero-pedido" disabled>
+                    </div>
+                    <div class="emissao__venda">
+                        <label for="nome-cliente" >Emissão</label>
+                        <input type="date" name="nome-cliente" id="nome-cliente" placeholder="26-10-1998">
+                    </div>
+                </div>
+                <span class="linha"></span>
+                <div class="produto__venda">
+                    <div class="item__produto">
+                        <div class="nome__produto">
+                            <label for="nome-produto" >Produto:</label>
+                            <input type="text" name="nome-produto" id="nome-produto">
+                        </div>
+                        <div class="cor__produto">
+                            <label for="">Cor:</label>
+                            <input type="text">
+                        </div>
+                        <div class="tecido__produto">
+                            <label for="">Tecido</label>
+                            <input type="text">
+                        </div>
+                        <div class="tamanho__produto">
+                            <label for="">Tmh:</label>
+                            <input type="number">
+                        </div>
+                        <div class="qnt__produto">
+                            <label for="">Qnt</label>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="detalhes__produto">
+                        <h3 class="titulo__detalhes">Detalhes</h3>
+                        <div class="modelagem__detalhes">
+                            <h4 class="titulo__modelagem">Jaleco Branco 44 Gabardine</h4>
+                            <div class="opcoes__modelagem">
+                                <div class="gola__opcao">
+                                    <h3>Gola:</h3>
+                                    <div>
+                                        <label>
+                                            <input type="radio" name="gola" value="padre">
+                                            <span class="checkmark">Padre</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="gola" value="smoking">
+                                            <span class="checkmark">Smoking</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="gola" value="blazer">
+                                            <span class="checkmark">Blazer</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="manga__opcao">
+                                    <h3>Manga:</h3>
+                                    <div>
+                                        <label>
+                                            <input type="radio" name="manga" value="cavada">
+                                              <span class="checkmark">Cavada</span>
+                                            </label>
+                                            <label>
+                                              <input type="radio" name="manga" value="curta">
+                                              <span class="checkmark">Curta</span>
+                                            </label>
+                                            <label>
+                                              <input type="radio" name="manga" value="longa">
+                                              <span class="checkmark">Longa</span>
+                                            </label>
+                                            <label>
+                                              <input type="radio" name="manga" value="longa-bufante">
+                                              <span class="checkmark">Longa Bufante</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="punho__opcao">
+                                        <h3>Punho:</h3>
+                                        <div>
+                                            <label>
+                                                <input type="radio" name="punho" value="elastico">
+                                                <span class="checkmark">Elástico</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="punho" value="ribana">
+                                                <span class="checkmark">Ribana</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="punho" value="camisa">
+                                                <span class="checkmark">Camisa</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="punho" value="basica">
+                                                <span class="checkmark">Básica</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="trava__opcao">
+                                        <h3 class="trava__titulo">Trava:</h3>
+                                        <div>
+                                            <label>
+                                                <input type="radio" name="trava" value="3tiras">
+                                                <span class="checkmark">3 Tiras</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="trava" value="4tiras">
+                                                <span class="checkmark">4 Tiras</span>
+                                            </label>
+                                              <label>
+                                                <input type="radio" name="trava" value="basica">
+                                                <span class="checkmark">Básica</span>
+                                              </label>
+                                              <label>
+                                                <input type="radio" name="trava" value="presa">
+                                                <span class="checkmark">Presa</span>
+                                              </label>
+                                              <label>
+                                                <input type="radio" name="trava" value="presa-com-vivo">
+                                                <span class="checkmark">Presa com Vivo</span>
+                                              </label>
+                                              <label>
+                                                <input type="radio" name="trava" value="presa-com-laco">
+                                                <span class="checkmark">Presa com Laço</span>
+                                              </label>
+                                        </div>
+                                    </div>
+                                    <div class="vivo__opcao">
+                                        <h3>Vivo:</h3>
+                                        <div>
+                                            <label>
+                                                <input type="radio" name="vivo" value="com-vivo">
+                                                <span class="checkmark">Com Vivo</span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="vivo" value="sem-vivo">
+                                                <span class="checkmark">Sem Vivo</span>
+                                            </label>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="medidasebordados__detalhes">
+                                    <table class="tabela__medidas">
+                                        <tbody id="tabela-medidas">
+                                            <tr class="titulo__medidas">
+                                                <th colspan="2" class="th1">
+                                                    <p>Medidas</p>
+                                                    <button class="btn__medidas" id="botao-medidas"><i class="fa-regular fa-pen-to-square"></i></button>
+                                                </th>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                    <table class="tabela__bordados">
+                                        <tbody>
+                                            <tr class="trtitulo__boradaos">
+                                                <th colspan="3">Bordados</th>
+                                            </tr>
+                                            <tr class="linha__nome">
+                                                <td class="td1__bordados">Nome</td>
+                                                <td>Monotype Corisva</td>
+                                                <td>Jayne de Melo Silva</td>
+                                            </tr>
+                                            <tr class="linha__Mesquerda">
+                                                <td class="td1__bordados">Manga Esquerda<button><i class="fa-solid fa-magnifying-glass"></i></button></td>
+                                                <td>B1CES01.CARDIO</td>
+                                                <td><img class="img__bordado" src="../assets/imgs/bordados/Brasoes/Unicesumar/Ligas/B1CES01.CARDIO.png" alt=""></td>
+                                            </tr>
+                                            <tr class="linha__MDireita">
+                                                <td class="td1__bordados">Manga direita<button><i class="fa-solid fa-magnifying-glass"></i></button></td>
+                                                <td>B1CES01.PNEUMO</td>
+                                                <td><img class="img__bordado" src="../assets/imgs/bordados/Brasoes/Unicesumar/Ligas/B1CES01.PNEUMO.png" alt=""></td>
+                                            </tr>
+                                            <tr class="linha__outros">
+                                                <td class="td1__bordados">Outros<button><i class="fa-solid fa-magnifying-glass"></i></button></td>
+                                                <td>B1CES03.MED0</td>
+                                                <td><img class="img__bordado" src="../assets/imgs/bordados/Logos/Profissional/B2PRO00.BRASILEIRO.png" alt=""></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="precos__produtos">
+                        <div class="precoun__precos">
+                            <label for="preco-un">Preco UN:</label>
+                            <input type="text" id="preco-un" disabled>
+                        </div>
+                        <div class="precott__precos">
+                            <label for="preco-tt">Preço Total</label>
+                            <input type="text" id="preco-tt" disabled>
+                        </div>
+                        <div class="btns__precos">
+                            <button>Adicionar</button>
+                            <button>Editar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="resumo">
+                    <h3>Resumo:</h3>
+                        <table class="tabela__resumo">
+                            <tbody>
+                                <tr>
+                                    <th class="th1" >Produto</th>
+                                    <th class="th2">Qnt</th>
+                                    <th class="th3">$un</th>
+                                    <th class="th4">$tt</th>
+                                </tr>
+                                <tr>
+                                    <td>Jaleco Branco 44 Gabardine <button>detalhes</button></td>
+                                    <td>99</td>
+                                    <td>R$195,00</td>
+                                    <td>R$1390,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="totalrodape__resumo">Total</td>
+                                    <td>99</td>
+                                    <td>-</td>
+                                    <td>R$1390,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    <div class="precos__resumo">
+                        <div class="precoadd__resumo">
+                            <label for="">Preço Adicional</label>
+                            <input type="text">
+                        </div>
+                        <div class="precott__resumo">
+                            <label for="">Preço Total</label>
+                            <input type="text" disabled>
+                        </div>
+                        <div class="btns__resumo">
+                            <button>Salvar</button>
+                            <button>Editar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="overlay">
+            <span class="popup__medidas" id="popup-medidas">
+                <div class="cabecalho__medidas">
+                    <h1>Medidas</h1>
+                    <button id="add-cabecalho"><i class="fa-solid fa-plus"></i></button>
+                    <button id="btn-anot"><i class="fa-regular fa-pen-to-square"></i></button>
+                    <button id="popup-close"><i class="fa-solid fa-x"></i></button>
+                </div>
+                    <div class="c1 coluna" id="coluna1" data-coluna>
+                    <div>
+                        <label for="popup_busto">Busto</label>
+                        <input id="popup_busto" type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_ombro">Ombro</label>
+                        <input id='popup_ombro' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_costa">Costa</label>
+                        <input id='popup_costa' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_frente">Frente</label>
+                        <input id='popup_frente' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_decote">Decote</label>
+                        <input id='popup_decote' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_alt-seio">Alt Seio</label>
+                        <input id='popup_alt-seio' type="text" maxlength="3">
+                    </div>
+                    <div>
+                            <label for="popup_comp">Comp</label>
+                            <input id='popup_comp' type="text" maxlength="3">
+                    </div>
+                    </div>
+                    <div class="c2 coluna"  id="coluna2" data-coluna>
+                    <div>
+                            <label for="popup_cintura">Cintura</label>
+                            <input id='popup_cintura' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_quadril">Quadril</label>
+                        <input id='popup_quadril' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_ml">ML</label>
+                        <input id='popup_ml' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_cava">Cava</label>
+                        <input id='popup_cava' type="text" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="popup_bordado">Bordado</label>
+                        <input id='popup_bordado' type="text" maxlength="3">       
+                    </div>
+                    <div>
+                        <label for="popup_trava">Trava</label>
+                        <input id='popup_trava' type="text" maxlength="3">       
+                    </div>
+                    <div>
+                        <label for="popup_botao">Botão</label>
+                        <input id='popup_botao' type="text" maxlength="3">                           
+                    </div>
+                </div>
+                <div id="quadro-anot" class="anotacao__div">
+                    <textarea name="anotacao" id="anotacao-popup" cols="23" rows="5" class="anotacao__popup"></textarea>
+                </div>
+                <div class="btn__div"><button id="btn-app" class="btn__app">Aplicar</button></div>
+            </span>
+        </div> 
+        </div>
+        <script type="module" src="../js/script.js"></script>
+        </body>
+    </html>

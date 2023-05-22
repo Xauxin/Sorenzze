@@ -1,0 +1,28 @@
+.addbor_overlay{
+    position: absolute;
+    display: none;
+    background-color: var(--branco);
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 8% 6% 86%;
+    grid-template-areas:
+        'cabecalho infos'
+        'PATH infos'
+        'lista infos';
+    border: #7286F3 solid 2px;
+    border-radius: 25px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 21%;
+}
+
+.addbor_overlay div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.canvas_addbor{
+    border: #7286F3 solid 1px;
+}

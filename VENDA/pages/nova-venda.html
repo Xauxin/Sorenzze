@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="br-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <link rel="stylesheet" href="../assets/styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <ul class="lista__header" id="lista-header" data-listaHeader>
+      <li class="item__lista__header inicio-header" id="item-lista-header" data-itemListaHeader><a></a>INÍCIO</li>
+      <li class="item__lista__header inicio-header" id="item-lista-header" data-itemListaHeader>PEDIDOS</li>
+      <li class="item__lista__header inicio-header" id="item-lista-header" data-itemListaHeader>FINANCEIRO</li>
+    </ul>
+    <img class="img__header" src="../assets/imgs/Logo a.png" alt="logo Sorenzze">
+  </header>
+  <section class="secao__venda">
+    <div class="borda__venda">
+      <div class="venda__cliente">
+        <div class="nome__cliente">
+          <label for="nome-cliente" >Cliente:</label>
+          <input type="text" name="nome-cliente" id="nome-cliente">
+        </div>
+        <div class="tipo__cliente">
+          <label for="lista-tipo">Tipo:</label>
+            <input list="tipo" name="list" id="lista-tipo" class="lista__tipo">
+            <datalist id="tipo">
+              <option value="Pedido"></option>
+              <option value="Orçamento"></option>
+              <option value="Registro"></option>
+            </datalist>
+        </div>
+        <div class="numero__pedido">
+          <label for="numero-pedido" class="input__numero__pedido">Nº Pedido</label>
+          <input type="text" name="numero-pedido" id="numero-pedido" disabled>
+        </div>
+        <div class="emissao__pedido">
+          <label for="nome-cliente" >Emissão</label>
+          <input type="date" name="nome-cliente" id="nome-cliente">
+        </div>
+      </div>
+      <span class="linha"></span>
+      <div class="produtos">
+        <div class="produto">
+          <div class="nome__produto">
+            <label for="nome-produto" >Produto:</label>
+            <input type="text" name="nome-produto" id="nome-produto">
+          </div>
+          <div class="cor__produto">
+              <label for="">Cor:</label>
+              <input type="text">
+          </div>
+          <div class="tamanho__produto">
+            <label for="">Tmh:</label>
+            <input type="number">
+          </div>
+          <div class="qnt__produto">
+            <label for="">Qnt</label>
+            <input type="number">
+          </div>
+          <div class="tecido__produto">
+            <label for="">Tecido</label>
+            <input type="text">
+          </div>
+        </div>
+        <div class="detalhes">
+            <h3>Detalhes:</h3>
+            <div class="quadro__detalhes">
+              <div class="opcoes">
+                <h4 class="titulo__opcoes">Jaleco Branco 44 Gabardine</h4>
+                <div class="opcoes__detalhes">
+                  <div class="gola">
+                    <h3>Gola:</h3>
+                    <label>
+                      <input type="radio" name="gola" value="padre">
+                      <span class="checkmark">Padre</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="gola" value="smoking">
+                      <span class="checkmark">Smoking</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="gola" value="blazer">
+                      <span class="checkmark">Blazer</span>
+                    </label>
+                  </div>
+                  <div class="manga">
+                    <h3>Manga:</h3>
+                    <label>
+                      <input type="radio" name="manga" value="cavada">
+                      <span class="checkmark">Cavada</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="manga" value="curta">
+                      <span class="checkmark">Curta</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="manga" value="longa">
+                      <span class="checkmark">Longa</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="manga" value="longa-bufante">
+                      <span class="checkmark">Longa Bufante</span>
+                    </label>
+                    </div>
+                    <div class="punho">
+                      <h3>Punho:</h3>
+                      <label>
+                        <input type="radio" name="punho" value="elastico">
+                        <span class="checkmark">Elástico</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="punho" value="ribana">
+                        <span class="checkmark">Ribana</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="punho" value="camisa">
+                        <span class="checkmark">Camisa</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="punho" value="basica">
+                        <span class="checkmark">Básica</span>
+                      </label>
+                    </div>
+                    <div class="trava">
+                      <h3 class="trava__titulo">Trava:</h3>
+                      <label>
+                        <input type="radio" name="trava" value="3tiras">
+                        <span class="checkmark">3 Tiras</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="trava" value="4tiras">
+                        <span class="checkmark">4 Tiras</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="trava" value="basica">
+                        <span class="checkmark">Básica</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="trava" value="presa">
+                        <span class="checkmark">Presa</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="trava" value="presa-com-vivo">
+                        <span class="checkmark">Presa com Vivo</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="trava" value="presa-com-laco">
+                        <span class="checkmark">Presa com Laço</span>
+                      </label>
+                    </div>
+                    <div class="categoria">
+                      <h3>Vivo:</h3>
+                      <label>
+                        <input type="radio" name="vivo" value="com-vivo">
+                        <span class="checkmark">Com Vivo</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="vivo" value="sem-vivo">
+                        <span class="checkmark">Sem Vivo</span>
+                      </label>
+                    </div>                  
+                </div>
+              </div>
+              <div class="medidas__bordados"> 
+                <h4 class="titulo__medidas">Medidas</h4>
+                <h4 class="titulo__bordados">Bordados</h3>
+                <div class="medidas">
+                        <div class="Busto">
+                            <p>Busto</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Ombro</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Costa</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Frente</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Decote</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Alt Seio</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Comp</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Cintura</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Quadril</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>ML</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Cava</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Bordado</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Trava</p>
+                            <p>+5</p>
+                        </div>
+                        <div class="Busto">
+                            <p>Botão</p>
+                            <p>+5</p>
+                        </div>
+                    </div>
+                <div class="bordados">
+                          <div>
+                              <p>Nome:</p>
+                              <button>opç</button>
+                              <p>MonoType Corisva</p>
+                              <p>Jayne de Melo Silva</p>
+                          </div>
+                          <div>
+                              <p>Manga Esquerda:</p>
+                              <button>opç</button>
+                              <p>B1CES01.CARDIO</p>
+                              <img src="../assets/imgs/B1CES01.CARDIO.png" alt="">
+                          </div>
+                          <div>
+                              <p>Manga Direita:</p>
+                              <button>opç</button>
+                                <p>B1CES02.MEDVII</p>
+                              <img src="../assets/imgs/B1CES02.MEDXVII.PNG" alt="">
+                          </div>
+                          <div>
+                              <p>Outros:</p>
+                              <button>opç</button>
+                              <p>B1CES03.MED00</p>
+                              <img src="../assets/imgs/B1CES03.MED0.png" alt="">
+                          </div>
+                      </div>
+                </div>
+              </div>
+              <div class="precos">
+                <div class="precoun__produto">
+                  <label for="">Preco UN:</label>
+                  <input type="text" disabled>
+                </div>
+                <div class="preoctt__produto">
+                  <label for="">Preço Total</label>
+                  <input type="text" disabled>
+                </div>
+                <button>Adcionar</button>
+                <button>Editar</button>
+              </div>
+            </div>
+      </div>
+      <div class="resumo">
+        <h3>Resumo:</h3>
+          <div class="quadro__resumo">
+              <table class="tabela__resumo">
+                <tr>
+                  <th class="th1">Qnt</th>
+                  <th class="th2">Produto</th>
+                  <th class="th3">$un</th>
+                  <th class="th4">$tt</th>
+                </tr>
+                <tr>
+                  <td>99</td>
+                  <td>Jaleco Branco 44 Gabardine <button>detalhes</button></td>
+                  <td>R$195,00</td>
+                  <td>R$1390,00</td>
+                </tr>
+              </table>
+          </div>
+          <div class="precos__resumo">
+            <div class="preocadd__resumo">
+              <label for="">Preço Adicional</label>
+              <input type="text">
+            </div>
+            <div class="precott__resumo">
+              <label for="">Preço Total</label>
+              <input type="text" disabled>
+            </div>
+            <button>Salvar</button>
+              <button>Editar</button>
+            </div>
+          </div>
+          
+      </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+

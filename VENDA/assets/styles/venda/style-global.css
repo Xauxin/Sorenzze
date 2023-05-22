@@ -1,0 +1,73 @@
+/*estilos gerais*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+
+:root {
+    --azul-forte: #7286F3;
+    --azul-fraco: #8ea7e9;
+    --branco-azul: #e5e0ff;
+    --branco: #fff2f2;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: 'inter', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: compatibility;  
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body input:focus{
+    outline: none;
+}
+
+/*estilos gerais*/
+
+/*Venda*/
+
+.venda{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+    'cliente resumo'
+    'linha resumo'
+    'produto resumo';
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--branco-azul);
+    border: var(--azul-forte) solid 3px;
+}
+
+/*linha*/
+
+.linha_venda{
+    grid-area: linha;
+    border-top: var(--azul-forte) solid 3px;
+    margin: 8px 42px 8px 16px;
+}
+
+/*linha*/
+
+
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo escuro com transparência */
+    z-index: 9999; /* Certifique-se de que a sobreposição fique acima de todos os outros elementos */
+  }
+
+.bordados_overlay{
+    display: none;
+}

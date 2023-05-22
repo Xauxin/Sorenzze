@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="8481.94 12328.94 4036.12 3039.12">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:7.62}
+    .fil1 {fill:none}
+    .fil0 {fill:black}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M10101 12350c-5,172 29,343 99,500 69,154 172,291 300,401 128,-109 231,-246 299,-400 71,-157 105,-329 100,-501l-799 1z"/>
+  <polygon class="fil0 str0" points="11999,13850 11931,13781 12429,13279 12499,13350 "/>
+  <polygon class="fil0 str0" points="9001,13849 9071,13780 8571,13281 8501,13349 "/>
+  <polygon class="fil0 str0" points="9501,15249 11499,15249 11499,15349 9501,15349 "/>
+  <polygon class="fil1 str0" points="10822,14557 11284,14557 11284,14528 10822,14528 "/>
+  <line class="fil1 str0" x1="10832" y1="14543" x2="11274" y2="14543"/>
+  <polygon class="fil1 str0" points="9722,14557 10184,14557 10184,14528 9722,14528 "/>
+  <path class="fil0 str0" d="M9499 13347l1 519 2 1359 2000 0 -1 -1876 414 411 500 -500 -914 -911 -550 1c3,172 -31,342 -100,499 -78,177 -198,332 -349,452 -152,-119 -273,-274 -351,-452 -69,-157 -103,-328 -99,-500l-549 -1 -912 914 498 505 412 -422zm683 1687l-462 0 0 -462 462 0 0 462zm1102 0l-462 0 0 -462 462 0 0 462zm-1100 -477l-462 0 0 -29 462 0 0 29zm1100 0l-462 0 0 -29 462 0 0 29z"/>
+  <polygon class="fil0 str0" points="9740,14592 9740,15014 10162,15014 10162,14592 "/>
+  <polygon class="fil0 str0" points="10842,14592 10842,15014 11264,15014 11264,14592 "/>
+  <line class="fil1 str0" x1="9732" y1="14543" x2="10174" y2="14543"/>
+ </g>
+</svg>

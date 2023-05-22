@@ -1,0 +1,122 @@
+.medidas_overlay {
+    background-color: var(--branco-azul);
+    position: absolute;
+    display: none;
+    width: 16%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        'cabecalho cabecalho'
+        'c1 c2'
+        'anotacao anotacao'
+        'botao botao';
+    align-items: center;
+    border: #7286F3 solid 2px;
+    border-radius: 25px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.cabecalho_medidas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: cabecalho;
+    border-bottom: var(--azul-forte) solid 2px;
+    margin: 5px 0 15px 0;
+    padding: 5px;
+}
+
+.cabecalho_medidas h1{
+    font-size: 26px;
+}
+
+.cabecalho_medidas h1:hover{
+    color: black;
+    border: none;
+}
+
+.cabecalho_medidas button{
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    background-color: var(--azul-fraco);
+    color: var(--branco-azul);
+    border: var(--azul-forte) solid 2px;
+}
+
+.cabecalho_medidas :hover{
+    background-color: var(--branco-azul);
+    color: var(--azul-forte);
+    border: var(--azul-forte) solid 2px;
+}
+
+.cabecalho_medidas i:hover {
+    border: none;
+}
+
+.coluna1_medidas, .coluna2_medidas{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna1_medidas div, .coluna2_medidas div{
+    margin: 1px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.medidas_overlay input{
+    background-color: var(--branco);
+    border: var(--azul-forte) solid 2px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 37%;
+}
+
+.medidas_overlay input :focus{
+    outline: none;
+    border: none;
+}
+
+
+.quadro_medidas{
+    grid-area: anotacao;
+    display: none;
+}
+
+.text_quadro{
+    display: block;
+    background-color: var(--branco);
+    resize: none;
+    border: var(--azul-forte) solid 2px;
+    border-radius: 8px;
+    margin: 2px 5px 0 5px;
+}
+
+.btn_medidas{
+    grid-area: botao;
+    width: 100%;    
+    margin-top: 5px;
+}
+
+.button_medidas{
+    border-radius: 8px;
+    height: 25px;
+    width: 100%;
+    background-color: var(--azul-fraco);
+    color: var(--branco-azul);
+    border: var(--azul-forte) solid 2px;
+}
+
+.btn_medidas :hover{
+    background-color: var(--branco-azul);
+    color: var(--azul-forte);
+    border: var(--azul-forte) solid 2px;
+}

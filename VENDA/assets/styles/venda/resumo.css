@@ -1,0 +1,86 @@
+/*Resumo*/
+
+.resumo_venda{
+    grid-area: resumo;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 8% 80% 10%;
+}
+
+.resumo_venda h3{
+    font-family: 'Montserrat', 'sans-serif';
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.tabela_resumo{
+    border: var(--azul-forte) solid 2px;
+    margin-left: 20px;
+    width: 95%;
+    background-color: var(--branco);
+    box-sizing: border-box;
+    align-self: start;
+}
+
+
+.tabela_resumo td, .tabela_resumo th{
+    border: var(--azul-forte) solid 1px;
+    padding: 3px;
+    text-align: center;
+}
+
+.totalrodape_resumo{
+    background-color: var(--branco-azul);
+    text-align: end;
+}
+
+.preco_resumo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 4px 22px;
+    box-sizing: border-box;
+}
+
+.precoadd_resumo, .precott_resumo{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.btns_resumo{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.btns_resumo button{
+    background-color: var(--azul-fraco);
+    color: var(--branco-azul);
+    font-size: 18px;
+    padding: 5px 15px;
+    border: var(--azul-forte) solid 2px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.preco_resumo label{
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 75%;
+}
+
+.preco_resumo input{
+    background-color: var(--branco);
+    border: var(--azul-forte) solid 2px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left:3px ;
+    width: 75%;
+}

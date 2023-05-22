@@ -1,0 +1,345 @@
+{
+  "bordados": [
+      {
+        "id": 1,
+        "nome": "Brasão da Liga de Cardiologia da Unicesumar Maringa",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Liga/01",
+        "codigo": "B1CES01.CARDIO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Ligas/B1CES01.CARDIO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 2,
+        "nome": "Brasão da Liga de Geriatria e Gerontologia da Unicesumar",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Liga/01",
+        "codigo": "B1CES01.GERIA",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Ligas/B1CES01.GERIA.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 3,
+        "nome": "Brasão da Liga de Pneumologia e Cirurgia Torácica da Unicesumar Maringa",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Liga/01",
+        "codigo": "B1CES01.PNEUMO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Ligas/B1CES01.PNEUMO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 4,
+        "nome": "Brasão do Curso de Medicina da Unicesumar S/ Turma",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Curso/03",
+        "codigo": "B1CES03.MED0",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Curso/B1CES03.MED0.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 5,
+        "nome": "Brasão do Curso de Medicina da Unicesumar Turma XIV",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Curso/03",
+        "codigo": "B1CES03.MEDXIV",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Curso/B1MED03.MEDXIV.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 6,
+        "nome": "Brasão do Curso de Medicina Veterinário S/ Turma",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Curso/03",
+        "codigo": "B1CES03.MEDVET",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Curso/B1CES03.MEDVET.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 7,
+        "nome": "Brasão Da Turma X de Medicina da Unicesumar",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Turma/02",
+        "codigo": "B1CES02.MEDX",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Turmas/B1CES02.MEDX.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 8,
+        "nome": "Brasão Da Turma XII de Medicina da Unicesumar",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Turma/02",
+        "codigo": "B1CES02.MEDXII",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Turmas/B1CES02.MEDXII.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 9,
+        "nome": "Brasão Da Turma XVI de Medicina da Unicesumar",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Turma/02",
+        "codigo": "B1CES02.MEDXVI",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Turmas/B1CES02.MEDXVI.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 10,
+        "nome": "Brasão Da Turma XVII de Medicina da Unicesumar",
+        "estilo": "Brasão",
+        "nucleo": "Unicesumar/CES",
+        "particao": "Turma/02",
+        "codigo": "B1CES02.MEDXVII",
+        "imagem": "../assets/imgs/bordados/Brasoes/Unicesumar/Turmas/B1CES02.MEDXVII.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 11,
+        "nome": "Brasão Da Liga de Cirurgia Pediátrica da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Liga/01",
+        "codigo": "B1UNI01.PEDIA",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Ligas/B1UNI01.PEDIA.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 12,
+        "nome": "Brasão Da Liga de Cardiologia da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Liga/01",
+        "codigo": "B1UNI01.CARDIO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Ligas/B1UNI01.CARDIO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 13,
+        "nome": "Brasão Da Liga de Nefrologia da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Liga/01",
+        "codigo": "B1UNI01.NEFRO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Ligas/B1UNI01.NEFRO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 14,
+        "nome": "Brasão Da Turma XIV da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Turma/02",
+        "codigo": "B1UNI02.TXIV",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Turmas/B1UNI02.MEDXIV.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 15,
+        "nome": "Brasão Da Turma XV da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Turma/02",
+        "codigo": "B1UNI02.MEDXV",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Turmas/B1UNI02.MEDXV.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 16,
+        "nome": "Brasão Da Turma XI da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Turma/02",
+        "codigo": "B1UNI02.MEDXI",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Turmas/B1UNI02.MEDXI.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 17,
+        "nome": "Brasão Do Curso de Medicina S/ Turma da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Curso/03",
+        "codigo": "B1UNI03.MED0",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Curso/B1UNI03.MED0.png",
+        "preco": "R$20,00"
+      },       
+      {
+        "id": 18,
+        "nome": "Brasão Do Curso de Medicina Veterinária da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Curso/03",
+        "codigo": "B1UNI03.MEDVET",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Curso/B1UNI03.MEDVET.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 19,
+        "nome": "Brasão Do Curso de Psicologia da Uninga",
+        "estilo": "Brasão",
+        "nucleo": "Uninga/UNI",
+        "particao": "Curso/03",
+        "codigo": "B1UNI03.PSICO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uninga/Curso/B1UNI03.PSICO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 20,
+        "nome": "Brasão Do Curso de Medicina da Uem",
+        "estilo": "Brasão",
+        "nucleo": "Uem/UEM",
+        "particao": "Curso/03",
+        "codigo": "B1UEM03.MED",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uem/Curso/B1UEM03.MED0.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 21,
+        "nome": "Brasão Do Curso de Farmácia da Uem",
+        "estilo": "Brasão",
+        "nucleo": "Uem/UEM",
+        "particao": "Curso/03",
+        "codigo": "B1UEM03.FARMA",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uem/Curso/B1UEM03.FARMA.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 22,
+        "nome": "Brasão Do Curso de Odontologia da Uem",
+        "estilo": "Brasão",
+        "nucleo": "Uem/UEM",
+        "particao": "Curso/03",
+        "codigo": "B1UEM03.ODONTO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uem/Curso/B1UEM03.ODONTO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 23,
+        "nome": "Brasão Da Liga de Cuidados Paliativos da Uem",
+        "estilo": "Brasão",
+        "nucleo": "Uem/UEM",
+        "particao": "Liga/01",
+        "codigo": "B1UEM01.PALIA",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uem/Ligas/B1UEM01.PALIA.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 24,
+        "nome": "Brasão Da Liga de Ginecologia da Uem",
+        "estilo": "Brasão",
+        "nucleo": "Uem/UEM",
+        "particao": "Liga/01",
+        "codigo": "B1UEM01.GINECO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uem/Ligas/B1UEM01.laperc.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 25,
+        "nome": "Brasão Da Liga de Ginecologia da Uem",
+        "estilo": "Brasão",
+        "nucleo": "Uem/UEM",
+        "particao": "Liga/01",
+        "codigo": "B1UEM01.GINECO",
+        "imagem": "../assets/imgs/bordados/Brasoes/Uem/Ligas/B1UEM01.GINECO.png",
+        "preco": "R$20,00"
+      },      
+      {
+        "id": 26,
+        "nome": "Logo da Clinica Martinhão",
+        "estilo": "Logo",
+        "nucleo": "Clinica/CLI",
+        "particao": "-",
+        "codigo": "B2CLI00.MARTINHAO",
+        "imagem": "../assets/imgs/bordados/Logos/Clinicas/B2CLI00.MARTINHAO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 27,
+        "nome": "Logo da Clinica Prevenpet",
+        "estilo": "Logo",
+        "nucleo": "Clinica/CLI",
+        "particao": "-",
+        "codigo": "B2CLI00.PREVENPET",
+        "imagem": "../assets/imgs/bordados/Logos/Clinicas/B2CLI00.PREVEN.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 28,
+        "nome": "Logo da Clinica Vitally",
+        "estilo": "Logo",
+        "nucleo": "Clinica/CLI",
+        "particao": "-",
+        "codigo": "B2CLI00.VITAL",
+        "imagem": "../assets/imgs/bordados/Logos/Clinicas/B2CLI00.VITAL.png",
+        "preco": "R$20,00"
+      },       
+      {
+        "id": 29,
+        "nome": "Logo da Ala de Pediatria do HUM",
+        "estilo": "Logo",
+        "nucleo": "Hospital/HOS",
+        "particao": "-",
+        "codigo": "B2HOS00.PEDHUM",
+        "imagem": "../assets/imgs/bordados/Logos/Hospitais/B2HOS00.PEDHUM.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 30,
+        "nome": "Logo Hospital do Rocio",
+        "estilo": "Logo",
+        "nucleo": "Hospital/HOS",
+        "particao": "-",
+        "codigo": "B2HOS00.ROCIO",
+        "imagem": "../assets/imgs/bordados/Logos/Hospitais/B2HOS00.ROCIO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 29,
+        "nome": "Logo da Ala de Pediatria do HUM",
+        "estilo": "Logo",
+        "nucleo": "Hospital/HOS",
+        "particao": "-",
+        "codigo": "B2HOS00.VASCSR",
+        "imagem": "../assets/imgs/bordados/Logos/Hospitais/B2HOS00.VASCSR.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 30,
+        "nome": "Logo Dr. Brasileiro",
+        "estilo": "Logo",
+        "nucleo": "Profissional/PRO",
+        "particao": "-",
+        "codigo": "B2PRO00.BRASILEIRO",
+        "imagem": "../assets/imgs/bordados/Logos/Profissional/B2PRO00.BRASILEIRO.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 31,
+        "nome": "Logo Dr. Brasileiro Touca",
+        "estilo": "Logo",
+        "nucleo": "Profissional/PRO",
+        "particao": "-",
+        "codigo": "B2PRO00.BRASILEIROT",
+        "imagem": "../assets/imgs/bordados/Logos/Profissional/B2PRO00.BRASILEIROT.png",
+        "preco": "R$20,00"
+      },
+      {
+        "id": 32,
+        "nome": "Logo Tolentino",
+        "estilo": "Logo",
+        "nucleo": "Profissional/PRO",
+        "particao": "-",
+        "codigo": "B2PRO00.TOLENTINO",
+        "imagem": "../assets/imgs/bordados/Logos/Profissional/B2PRO00.TOLENTINO.png",
+        "preco": "R$20,00"
+      }       
+  ]
+
+}
